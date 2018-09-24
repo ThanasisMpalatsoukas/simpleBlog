@@ -16,7 +16,6 @@ Its a simple blog meant for people to publish their thoughts. Its simple but fle
 * Menu Description
 * The GPL v2.0 or later license. :) Use it to make something cool.
 
-For more information about Twenty Fifteen please go to https://codex.wordpress.org/Twenty_Fifteen.
 
 == Installation ==
 
