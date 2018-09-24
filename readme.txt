@@ -1,4 +1,4 @@
-=== Twenty Fifteen ===
+=== Viridi ===
 Contributors: the WordPress team
 Requires at least: WordPress 4.1
 Tested up to: WordPress 5.0-trunk
