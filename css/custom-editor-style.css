@@ -1,0 +1,11 @@
+h3{ font-size:4em;font-weight:600;padding:20px 15px;	}
+p { font-size:1em;padding:12px 20px;opacity:0.8;	}
+p a { padding:10px 10px;background-color:#007bff;color:#fff;font-size:0.8em;border-radius:3px;	}
+strong { font-weight: 600;opacity:1;color:#000; }
+ul { padding:12px 20px;list-style: none; }
+li { font-size:2em;font-weight: 600;list-style: none;}
+blockquote { font-style: italic;font-weight: 600;font-size: 1.25em;padding:22px;opacity:1; }
+blockquote p { opacity:1;font-size:1.2em;font-style: italic;}
+em { font-style: italic;opacity:1; }
+img { padding:10px 0px;max-width: 100%;max-height:400px; }
+img .aligncenter { display: block;margin-left: auto;margin-right: auto;	 }
