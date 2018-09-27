@@ -20,5 +20,5 @@
  * @since 0.1
  **/
 register_nav_menus( array(
-	'primary' => 'The menu that appears on the top',
+	'primary' => __( 'The menu that appears on the top' , 'viridi' ),
 ) );

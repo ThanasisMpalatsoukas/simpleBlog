@@ -113,7 +113,7 @@ add_action( 'customize_register', 'viridi_customize_register' );
  * @package viridi
  * @since 0.1
  **/
-function mytheme_customize_css() {
+function viridi_customize_css() {
 
 	/**
 	 *
@@ -175,4 +175,4 @@ function mytheme_customize_css() {
 	check_the_header_container();
 
 }
-add_action( 'wp_head', 'mytheme_customize_css' );
+add_action( 'wp_head', 'viridi_customize_css' );

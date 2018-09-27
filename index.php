@@ -16,8 +16,7 @@
 				<?php
 				if ( get_header_image() !== '' ) :
 				?>
-				<div class="background-image" style="background-image:url('<?php header_image(); ?>');" >
-				</div>
+				<img class="background-image" src="<?php  header_image() ?>" id="header_image" />
 				<?php
 				endif;
 				?>
@@ -27,12 +26,12 @@
 					<div class="col-lg-8 col-md-8 col-sm-8 col-12">
 						<div class="posts-container">
 
-							<h3 class="latest-posts">LATEST</h3>
+							<h3 class="latest-posts"><?php echo  esc_html( __( 'LATEST' , 'viridi' ) );  ?></h3>
 						<?php if ( have_posts() ) : ?>
 
 							<?php if ( is_home() && ! is_front_page() ) : ?>
 							<header>
-								<h3 class="page-title screen-reader-text">LATEST</h3>
+								<h3 class="page-title screen-reader-text"><?php echo esc_html( __('LATEST' , 'viridi') ); ?></h3>
 							</header>
 							<?php endif; ?>
 

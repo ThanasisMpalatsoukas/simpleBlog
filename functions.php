@@ -16,6 +16,11 @@ if ( ! isset( $content_width ) ) :
 	$content_width = 900;
 endif;
 
+add_action( 'after_setup_theme', 'viridi_theme_review_setup' );
+function viridi_theme_review_setup(){
+    load_theme_textdomain( 'viridi', get_template_directory() . '/languages' );
+}
+
 require get_template_directory() . '/inc/customize-header.php';
 require get_template_directory() . '/inc/enqueue.php';
 require get_template_directory() . '/inc/register-menus.php';

@@ -165,7 +165,7 @@ body{
 }
 
 .single{
-	.single-featured-image{ height:400px;width:100%;margin-top:15px;	}
+	.single-featured-image{ height:400px;width:100%;margin-top:15px;object-fit: cover;	}
 	.content-wrapper{ width:80%;border-top:35px solid #fafafa;
 		h3{ font-size:4em;font-weight:600;padding:20px 15px;	}
 		.single-main-content{border:1px solid #dedede;background-color:#fff;margin-bottom:20px;

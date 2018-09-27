@@ -13,11 +13,9 @@
 
 	?>
 	<div class="container-fluid">
-		<a href="<?php the_permalink() ?>">
+		<a href="<?php the_permalink(); ?>">
 		<div class="content-cards">
-			<div class="post-thumnbail background-image" style="background-image:url('<?php echo esc_html( get_the_post_thumbnail_url() ); ?>')">
-
-			</div>
+			<img class="post-thumnbail background-image" src="<?php echo esc_html( get_the_post_thumbnail_url() ); ?>" />
 			<div class="entry-content">
 				<header class="entry-header">
 					<h3><?php the_title(); ?></h3>

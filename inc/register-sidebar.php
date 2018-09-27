@@ -19,7 +19,7 @@
  * @package viridi
  * @since 0.1
  **/
-function wpdocs_theme_slug_widgets_init() {
+function viridi_wpdocs_theme_slug_widgets_init() {
 
 		register_sidebar( array(
 				'name'          => __( 'Blog sidebar', 'viridi' ),
@@ -63,4 +63,4 @@ function wpdocs_theme_slug_widgets_init() {
 
 }
 
-add_action( 'widgets_init', 'wpdocs_theme_slug_widgets_init' );
+add_action( 'widgets_init', 'viridi_wpdocs_theme_slug_widgets_init' );

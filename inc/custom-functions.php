@@ -17,7 +17,7 @@
  *
  * @since 1.0.0
  **/
-function the_content_outside_of_loop() {
+function viridi_the_content_outside_of_loop() {
 
 	global $wp_query;
 	$post = $wp_query->post;

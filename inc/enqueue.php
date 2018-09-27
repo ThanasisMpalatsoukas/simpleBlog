@@ -21,11 +21,11 @@
  **/
 function viridi_enqueue_files() {
 
-	wp_register_style( 'bootstrap' , get_template_directory_uri() . '/css/bootstrap.css' , '3.5' , 'all' );
-	wp_enqueue_style( 'bootstrap' );
+	wp_register_style( 'viridi_bootstrap' , get_template_directory_uri() . '/css/bootstrap.css' , '3.5' , 'all' );
+	wp_enqueue_style( 'viridi_bootstrap' );
 
-	wp_register_style( 'generalCss' , get_template_directory_uri() . '/css/viridi.css' , '0.1' , 'all' );
-	wp_enqueue_style( 'generalCss' );
+	wp_register_style( 'viridi_generalCss' , get_template_directory_uri() . '/css/viridi.css' , '0.1' , 'all' );
+	wp_enqueue_style( 'viridi_generalCss' );
 
 	if ( is_singular() ) :
 		wp_enqueue_script( 'comment-reply' );

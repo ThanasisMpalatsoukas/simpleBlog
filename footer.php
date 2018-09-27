@@ -23,7 +23,7 @@
 	</footer><!-- .site-footer -->
 	<div class="outterContainer container-fluid">
 		<div class="trademark text-center">
-			<p>Developer and created by <b style="font-weight:600;">thanasis mpalatsoukas</b> 2018 all rights reserved</p>
+			<p><?php echo esc_html( 'Developed and created by thanasis mpalatsoukas 2018 all rights reserved' , 'viridi' ) ?></p>
 		</div>
 	</div>
 </div><!-- .site -->

@@ -17,8 +17,7 @@ get_header(); ?>
 				<?php
 				if ( get_header_image() !== '' ) :
 				?>
-				<div class="background-image" style="background-image:url('<?php header_image(); ?>');" >
-				</div>
+				<img class="background-image" src="<?php  header_image() ?>" id="header_image" />
 				<?php
 				endif;
 				?>
@@ -38,7 +37,7 @@ get_header(); ?>
 							<?php
 							endif;
 							?>
-							<p><?php the_content_outside_of_loop(); ?></p>
+							<p><?php viridi_the_content_outside_of_loop(); ?></p>
 						</div>
 						<div class="link-pages">
 								<?php

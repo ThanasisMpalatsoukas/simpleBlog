@@ -153,7 +153,8 @@ body {
 .single .single-featured-image {
   height: 400px;
   width: 100%;
-  margin-top: 15px; }
+  margin-top: 15px;
+  object-fit: cover; }
 .single .content-wrapper {
   width: 80%;
   border-top: 35px solid #fafafa; }
